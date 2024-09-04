@@ -10,4 +10,4 @@ program
   .description('Compares two configuration and shows a difference')
   .helpOption('-h, --help', 'output usage information')
 
-program.parse(process.argv);
+program.parse();
