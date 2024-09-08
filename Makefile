@@ -5,4 +5,4 @@ publish:
 test:
 	npm test
 lint:
-  npm lint
+  npx eslint .
