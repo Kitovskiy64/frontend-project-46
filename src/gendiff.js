@@ -15,7 +15,7 @@ const parseFile = (filepath) => {
   return JSON.parse(fileContent);
 };
 
-const genDiff = (filepath1, filepath2) => {
+export const genDiff = (filepath1, filepath2) => {
   const data1 = parseFile(filepath1);
   const data2 = parseFile(filepath2);
 
