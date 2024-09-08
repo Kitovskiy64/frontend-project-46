@@ -10,16 +10,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "tests": "jest",
-    "tests:watch": "jest --watch" 
+    "tests:watch": "jest --watch"
   },
   "author": "Kit",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@eslint/js": "^9.10.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-react": "^7.34.1"
+    "eslint-plugin-react": "^7.34.1",
+    "globals": "^15.9.0"
   },
   "dependencies": {
     "commander": "^12.1.0",
