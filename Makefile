@@ -4,3 +4,5 @@ publish:
 	npm publish --dry-run
 test:
 	npm test
+lint:
+  make lint
