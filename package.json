@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "tests": "jest",
+    "tests:watch": "jest --watch" 
   },
   "author": "Kit",
   "license": "ISC",
