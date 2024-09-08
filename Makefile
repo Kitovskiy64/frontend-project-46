@@ -5,4 +5,4 @@ publish:
 test:
 	npm test
 lint:
-  make lint
+  npm lint
