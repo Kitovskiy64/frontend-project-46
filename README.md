@@ -19,9 +19,13 @@ Gendiff - утилита для вычисления отличий между �
 
 ```bash
 npm install --save-dev eslint
+```
 
 ## Примеры
 
 | Ссылка на сравнение двух файлов и вывод различий в терминал |
 [![asciicast](https://asciinema.org/a/TM4MQesCzKhB30duZQ08L695Q.svg)](https://asciinema.org/a/TM4MQesCzKhB30duZQ08L695Q)
+
+```
+
 ```
