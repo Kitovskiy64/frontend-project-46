@@ -13,6 +13,6 @@ test('gendiff сравнение двух плоских JSON файлов', () 
   + verbose: true
   }`;
 
-  expect(genDiff(filepath1, filepath2).toBe(expected));
+  expect(genDiff(filepath1, filepath2)).toBe(expected);
 });
 
