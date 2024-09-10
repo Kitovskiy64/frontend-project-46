@@ -2,9 +2,9 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Kitovskiy64/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Kitovskiy64/frontend-project-46/actions)",
-  "main": "gendiff.js",
+  "main": "./src/gendiff.js",
   "bin": {
-    "gendiff": "./gendiff.js"
+    "gendiff": "./src/gendiff.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,8 +27,6 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "fs": "^0.0.1-security",
-    "lodash": "^4.17.21",
-    "path": "^0.12.7"
+    "lodash": "^4.17.21"
   }
 }
