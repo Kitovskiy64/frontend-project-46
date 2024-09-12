@@ -3,17 +3,10 @@
 //@ts-check
 
 import { Command } from 'commander';
-import * as fs from 'fs';
-import path from 'path';
 import _ from 'lodash';
+import parseFile from './parsers.js';
 
 const program = new Command();
-
-const parseFile = (filepath) => {
-  const absoluteParse = path.resolve(process.cwd(), filepath);
-  const fileContent = fs.readFileSync(absoluteParse, 'utf-8');
-  return JSON.parse(fileContent);
-};
 
 export const genDiff = (filepath1, filepath2) => {
   const data1 = parseFile(filepath1);
