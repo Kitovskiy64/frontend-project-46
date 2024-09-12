@@ -1,7 +1,7 @@
 import path from 'path';
 import genDiff from '../src/gendiff';
 
-test('gendiff для сравнения двух плоских yml файлов', () => {
+test('gendiff сравнение двух плоских yml файлов', () => {
   const filepath1 = path.resolve('__fixtures__', 'file1.yml');
   const filepath2 = path.resolve('__fixtures__', 'file2.yml');
   const expected = `{
