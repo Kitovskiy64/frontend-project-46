@@ -1,5 +1,5 @@
 import path from 'path';
-import genDiff from '../src/gendiff';
+import genDiff from '../src/gendiff.js';
 
 test('gendiff сравнение двух плоских yml файлов', () => {
   const filepath1 = path.resolve('__fixtures__', 'file1.yml');
@@ -11,7 +11,7 @@ test('gendiff сравнение двух плоских yml файлов', () =
   - timeout: 50
   + timeout: 20
   + verbose: true
-  }`;
+}`;
 
-  expect(genDiff(filepath1, filepath2).toBe(expected));
+  expect(genDiff(filepath1, filepath2)).toBe(expected);
 })
