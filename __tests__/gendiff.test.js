@@ -11,7 +11,7 @@ test('gendiff сравнение двух плоских JSON файлов', () 
   - timeout: 50
   + timeout: 20
   + verbose: true
-  }`;
+}`;
 
   expect(genDiff(filepath1, filepath2)).toBe(expected);
 });
